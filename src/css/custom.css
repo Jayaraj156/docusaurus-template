@@ -1,71 +1,39 @@
-/* stylelint-disable docusaurus/copyright-header */
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
-
-@import "modules/notes.css";
-
-:root {
-  --ifm-color-primary: #02075d;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+*/
+/*** Global Typography - START*/
+@import url('https://fonts.googleapis.com/
+css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;
+1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+font-family: 'Roboto', sans-serif;
+font-size: 0.9rem;
+color: #404040;
 }
-
-.docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+/*** Global Typography - END*/
+/*** Content Headers - START */
+/* Colors */
+div.markdown > h1,
+div.markdown > h2,
+div.markdown > h3,
+div.markdown > h4,
+div.markdown > h5,
+div.markdown > h6 {
+color: darkred;
 }
-
-table {
-    width: 100%;
+/* Size */
+div.markdown > h1 {
+font-size: 2.4rem;
 }
-
-.markdown li > p {
-    margin-top: 0px;
-    margin-bottom: 0px;
+div.markdown > h2 {
+font-size: 2.0rem;
 }
-
-.pre {
-  background-color: var(--ifm-pre-background);
-  border-radius: var(--ifm-pre-border-radius);
-  color: var(--ifm-pre-color);
-  font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);
-  margin: 0 0 var(--ifm-spacing-vertical);
-  overflow: auto;
-  padding: var(--ifm-pre-padding);
-  word-wrap: normal;
-  display: block;
-  font-family: monospace;
-  white-space: pre-wrap;
+div.markdown > h3 {
+font-size: 1.6rem;
 }
-
-.ph {
-    display: inline;
-    background-color: var(--ifm-pre-background);
-    border-radius: var(--ifm-pre-border-radius);
-    color: var(--ifm-pre-color);
-    font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);
-    word-wrap: normal;
-    font-family: monospace;
-    white-space: pre-wrap;
+div.markdown > h4,
+div.markdown > h5,
+div.markdown > h6 {
+Docusaurus Publishing Guide
+25
+font-size: 1.2rem;
 }
-
-.markdown {
-    --ifm-h1-vertical-rhythm-top: 0; 
-}
-
-/* Wrap long lines of text in codeblocks */
-code {
-  white-space: pre-wrap;
-}
+/*** Content Headers - END */
