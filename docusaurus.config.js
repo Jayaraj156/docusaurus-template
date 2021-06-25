@@ -23,7 +23,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()}.`,
+      copyright: `© Aurigo Software Technologies Inc. ${new Date().getFullYear()}.`,
     },
   },
   presets: [
