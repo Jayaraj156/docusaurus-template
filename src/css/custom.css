@@ -69,3 +69,29 @@ table {
 code {
   white-space: pre-wrap;
 }
+/*** Content Headers - START */
+/* Colors */
+div.markdown > h1,
+div.markdown > h2,
+div.markdown > h3,
+div.markdown > h4,
+div.markdown > h5,
+div.markdown > h6 {
+color: #2d9ed0;
+}
+/* Size */
+div.markdown > h1 {
+font-size: 2.4rem;
+}
+div.markdown > h2 {
+font-size: 2.0rem;
+}
+div.markdown > h3 {
+font-size: 1.6rem;
+}
+div.markdown > h4,
+div.markdown > h5,
+div.markdown > h6 {
+  font-size: 1.2rem;
+}
+/*** Content Headers - END */
