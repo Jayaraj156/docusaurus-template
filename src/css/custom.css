@@ -20,12 +20,12 @@
   --ifm-code-font-size: 95%;
 }
 
-/*.docusaurus-highlight-code-line {
+.docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-}*/
+}
 
 table {
     width: 100%;
@@ -57,7 +57,7 @@ table {
   white-space: pre-wrap;
 }
 
-.ph {
+/*.ph {
     display: inline;
     background-color: var(--ifm-pre-background);
     border-radius: var(--ifm-pre-border-radius);
@@ -66,7 +66,7 @@ table {
     word-wrap: normal;
     font-family: monospace;
     white-space: pre-wrap;
-}
+}*/
 
 .markdown {
     --ifm-h1-vertical-rhythm-top: 0; 
@@ -99,7 +99,8 @@ font-size: 13px;
 div.markdown > h4,
 div.markdown > h5,
 div.markdown > h6 {
+  color: #43484c;
   font-size: 12px
-    color: #43484c;
+    
 }
 /*** Content Headers - END */
