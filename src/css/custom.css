@@ -83,12 +83,15 @@ color: #2d9ed0;
 }
 /* Size */
 div.markdown > h1 {
+  color: #2d9ed0;
 font-size: 16px;
 }
 div.markdown > h2 {
+  color: #2d9ed0;
 font-size: 15px;
 }
 div.markdown > h3 {
+  color: #2d9ed0;
 font-size: 13px;
 }
 div.markdown > h4,
