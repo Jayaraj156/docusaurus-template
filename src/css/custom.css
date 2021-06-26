@@ -50,16 +50,16 @@ table {
   white-space: pre-wrap;
 }
 
-/*.ph {
+.ph {
     display: inline;
-    background-color: var(--ifm-pre-background);
-    border-radius: var(--ifm-pre-border-radius);
-    color: var(--ifm-pre-color);
-    font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);
-    word-wrap: normal;
-    font-family: monospace;
-    white-space: pre-wrap;
-}*/
+/*    background-color: var(--ifm-pre-background);
+  border-radius: var(--ifm-pre-border-radius);
+  color: var(--ifm-pre-color);
+  font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);
+  word-wrap: normal;
+  font-family: monospace;
+  white-space: pre-wrap;*/
+}
 
 .markdown {
     --ifm-h1-vertical-rhythm-top: 0; 
@@ -95,7 +95,7 @@ font-size: 12px;
 div.markdown > h4,
 div.markdown > h5,
 div.markdown > h6 {
-  color: #43484c;
+  color: #2d9ed0;
   font-size: 12px
     
 }
