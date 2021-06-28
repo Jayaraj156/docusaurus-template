@@ -98,21 +98,17 @@ color: #2d9ed0;
 }
 /* Size */
 div.markdown > h1 {
-  color: #2d9ed0;
 font-size: 15px;
 }
 div.markdown > h2 {
-  color: #2d9ed0;
 font-size: 14px;
 }
 div.markdown > h3 {
-  color: #2d9ed0;
 font-size: 12px;
 }
 div.markdown > h4,
 div.markdown > h5,
 div.markdown > h6 {
-  color: #2d9ed0;
   font-size: 12px
     
 }
@@ -120,3 +116,7 @@ div.markdown > h6 {
 p
 { text-align: justify;
   text-justify: inter-word;}
+
+title
+{font-size: 15px;}
+  
