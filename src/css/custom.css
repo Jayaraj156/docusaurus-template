@@ -30,7 +30,9 @@
 table {
     width: 100%;
 }
-
+th
+{background-color: #bfc4cc
+}
 .markdown li > p {
     margin-top: 0px;
     margin-bottom: 0px;
