@@ -120,3 +120,7 @@ p
 title
 {font-size: 12px;}
   
+uicontrol
+{
+  font-weight: bold;
+}
