@@ -27,11 +27,7 @@ disableDarkMode: true,    },
                             label: 'Liked what you read. Let us know.',
                            // href: 'link to survey',
                         },],
-        logo: {
-                alt: 'AURIGO',
-                src: 'img/Aurigologo.png',
-                href: 'https://aurigo.com',
-            },
+        
       copyright: `© Aurigo Software Technologies Inc. ${new Date().getFullYear()}.`,
     },],
   },
