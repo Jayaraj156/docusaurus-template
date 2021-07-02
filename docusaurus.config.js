@@ -11,7 +11,7 @@ module.exports = {
 //    algolia: {
 //      apiKey: 'YOUR_API_KEY',
 //      indexName: 'YOUR_INDEX_NAME',
-//    },
+disableDarkMode: true,    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -22,9 +22,17 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [],
-      copyright: `© Aurigo Software Technologies Inc. ${new Date().getFullYear()}.`
-      'new line',
+      links: [{
+                     items: [{
+                            label: 'Liked what you read. Let us know.',
+                           // href: 'link to survey',
+                        },],
+        logo: {
+                alt: 'AURIGO',
+                src: 'img/Aurigologo.png',
+                href: 'https://aurigo.com',
+            },
+      copyright: `© Aurigo Software Technologies Inc. ${new Date().getFullYear()}.`,
     },
   },
   presets: [
