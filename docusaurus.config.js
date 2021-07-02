@@ -10,7 +10,7 @@ module.exports = {
   themeConfig: {
    colorMode:
     { defaultMode: 'light',
-      disableSwitch: false,
+      disableSwitch: true,
     },
 
 //    algolia: {
