@@ -51,6 +51,6 @@ module.exports = {
          indexDocSidebarParentCategories: 3,
          indexPages: false,
          language: "en"
-     },],
+     }]
   ],
 };
