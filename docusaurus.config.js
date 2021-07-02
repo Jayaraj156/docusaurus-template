@@ -27,9 +27,9 @@ disableDarkMode: true,    },
                             label: 'Liked what you read. Let us know.',
                            // href: 'link to survey',
                         },],
-        
+            },],
       copyright: `© Aurigo Software Technologies Inc. ${new Date().getFullYear()}.`,
-    },],
+
   },
   presets: [
     [
