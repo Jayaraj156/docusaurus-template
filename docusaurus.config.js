@@ -8,7 +8,7 @@ module.exports = {
   organizationName: 'your-org', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
-    disableDarkMode: true,
+    disableSwitch: false,
 //    algolia: {
 //      apiKey: 'YOUR_API_KEY',
 //      indexName: 'YOUR_INDEX_NAME',
