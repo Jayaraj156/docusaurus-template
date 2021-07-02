@@ -122,5 +122,5 @@ title
   
 uicontrol
 {
-  font-weight: bold;
+  @apply font-bold;
 }
