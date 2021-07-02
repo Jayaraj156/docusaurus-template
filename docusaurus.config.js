@@ -28,6 +28,11 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [],
+      logo: {
+      alt: 'Aurigo Logo',
+      src: 'img/Aurigologo.png',
+      href: 'https://aurigo.com',
+    },
       copyright: `© Aurigo Software Technologies Inc ${new Date().getFullYear()}.`,
     },
   },
