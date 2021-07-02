@@ -11,7 +11,7 @@ module.exports = {
 //    algolia: {
 //      apiKey: 'YOUR_API_KEY',
 //      indexName: 'YOUR_INDEX_NAME',
-disableDarkMode: true,    },
+//    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -22,8 +22,9 @@ disableDarkMode: true,    },
     },
     footer: {
       style: 'dark',
-         copyright: `© Aurigo Software Technologies Inc. ${new Date().getFullYear()}.`,
-
+      links: [],
+      copyright: `Copyright © ${new Date().getFullYear()}.`,
+    },
   },
   presets: [
     [
@@ -44,12 +45,12 @@ disableDarkMode: true,    },
   ],
   plugins: [
     // To enable the local search functionality, uncomment the following code:
-   [require.resolve('@cmfcmf/docusaurus-search-local'), {
-   indexDocs: true,
-     docsRouteBasePath: '/',
-     indexDocSidebarParentCategories: 3,
-   indexPages: false,
-   language: "en"
-    }]
+    [require.resolve('@cmfcmf/docusaurus-search-local'), {
+    indexDocs: true,
+         docsRouteBasePath: '/',
+         indexDocSidebarParentCategories: 3,
+         indexPages: false,
+         language: "en"
+     }]
   ],
 };
