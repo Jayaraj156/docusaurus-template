@@ -33,7 +33,7 @@ disableDarkMode: true,    },
                 href: 'https://aurigo.com',
             },
       copyright: `© Aurigo Software Technologies Inc. ${new Date().getFullYear()}.`,
-    },
+    },],
   },
   presets: [
     [
