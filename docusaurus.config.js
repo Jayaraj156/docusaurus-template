@@ -50,7 +50,7 @@ module.exports = {
          docsRouteBasePath: '/',
          indexDocSidebarParentCategories: 3,
          indexPages: false,
-         language: "en"
-     }]
+         language: "en",
+     },],
   ],
 };
