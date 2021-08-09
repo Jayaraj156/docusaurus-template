@@ -34,6 +34,7 @@ module.exports = {
       href: 'https://aurigo.com',
     },
       copyright: `© Aurigo Software Technologies Inc ${new Date().getFullYear()}.`,
+      <button onclick="window.print()">Print this page</button>,
     },
   },
   presets: [
