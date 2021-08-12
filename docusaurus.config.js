@@ -29,6 +29,12 @@ module.exports = {
           docId: 'introduction',
           label: 'Docs',
         },
+        {
+          href: 'https://aurigo.com/',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'Aurigo repository',
+        },
       ],
     },
     footer: {
