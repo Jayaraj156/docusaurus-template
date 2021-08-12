@@ -23,19 +23,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [ {
-          type: 'doc',
-          position: 'left',
-          docId: 'introduction',
-          label: 'Docs',
-        },
-        {
-          href: 'https://aurigo.com/',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'Aurigo repository',
-        },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
