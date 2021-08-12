@@ -23,7 +23,16 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [],
+      items: [
+      {
+title: 'Print', //Column title
+items: [
+{ //Embedded HTML
+html: `
+<p align="center"><a href="javascript:window.print()"><img src="/img/print_desktop.png" alt="." id="print-button" /></p>
+`,
+},
+],
     },
     footer: {
       style: 'dark',
