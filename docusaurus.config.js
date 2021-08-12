@@ -24,9 +24,6 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-      {
-title: 'Print', //Column title
-items: [
 { //Embedded HTML
 html: `
 <p align="center"><a href="javascript:window.print()"><img src="/img/print_desktop.png" alt="." id="print-button" /></p>
